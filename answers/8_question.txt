@@ -1,0 +1,40 @@
+PROBLEM #1
+I have a relation ABC.
+What are the sequence of commands to determine its structure?
+
+ANSWER:
+bq
+rel ABC
+di
+x
+
+PROBLEM #2
+I have a relation XYZ.
+Its structure is noted below:
+
+XYZ =  { file (B1) of } record
+  B1   : integer;     { block number   B1
+  Name : Char8;       { B1 name
+end;
+
+What are the sequence of commands to read the first and last records of relation XYZ?
+
+ANSWER:
+bq
+rel XYZ
+re f
+re l
+x
+
+PROBLEM #3
+Continuing with relation XYZ
+What are the sequences of commands to read key value 10 and the next 2 records?
+
+ANSWER:
+bq
+rel XYZ
+key 10
+re 10
+re n
+re n
+x
