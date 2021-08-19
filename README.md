@@ -1,4 +1,4 @@
-# siemens-challenge
+# Challenge
 
 ## Organization
 
